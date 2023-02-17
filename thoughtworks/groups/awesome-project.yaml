@@ -6,3 +6,12 @@ metadata:
 spec:
   type: team
   children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: awsome-pet
+  description: Awesome Platform Engineering Team
+spec:
+  type: team
+  children: [awsome-pet]
